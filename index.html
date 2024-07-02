@@ -185,7 +185,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
-          <img src="static/images/overview2.jpg" alt="Overview"/>
+          <img src="static/images/overview_large.jpg" alt="Overview"/>
           <p>
             The input to Tree-D Fusion is an RGB image of a tree and its genus. To perform shape reconstruction, we minimize the loss function w.r.t. the NeRF parameter θ. The loss function is constructed from two diffusion models, StableDiffusion with Lora and Zero123, trained on real tree images and synthetic 3D tree models. 
             The output is an optimized NeRF τ (θ∗), which is a detailed 3D tree envelope. We then populate the volume of τ (θ∗) by markers based on the envelope and reconstruct trees by genus-conditioned space colonization algorithm.
